@@ -17,8 +17,40 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/btn_star_big_on"
+        android:layout_marginTop="59dp"
+        android:id="@+id/d2bLogo"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/d2bLogo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="128dp"
-        android:id="@+id/d2bLogo" />
+        android:layout_marginTop="100dp"
+        android:weightSum="1">
+
+        <Button
+            android:text="@string/ngame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/NewGameButton"
+            android:layout_weight="0.33" />
+
+        <Button
+            android:text="@string/settingString"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SettingButton"
+            android:layout_weight="0.33" />
+
+        <Button
+            android:text="@string/aboutString"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/AboutButton"
+            android:elevation="0dp"
+            android:layout_weight="0.33" />
+    </LinearLayout>
 </RelativeLayout>

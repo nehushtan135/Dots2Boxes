@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Dots2Boxes</string>
     <string name="action_settings">Settings</string>
+    <string name="ngame">New Game</string>
+    <string name="settingString">Settings</string>
+    <string name="aboutString">About</string>
 </resources>
