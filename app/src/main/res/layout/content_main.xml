@@ -13,8 +13,12 @@
     tools:context="com.evgames.elijahvarga.dots2boxes.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        android:id="@+id/d2bLogo" />
 </RelativeLayout>
