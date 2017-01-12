@@ -4,4 +4,10 @@
     <string name="ngame">New Game</string>
     <string name="settingString">Settings</string>
     <string name="aboutString">About</string>
+    <string name="promptname">Enter Name:</string>
+    <string name="p1NamePrompt">Player 1 Name:</string>
+    <string name="p2NamePrompt">Player 2 Name:</string>
+    <string name="p2Input">Player 2 Name Here:</string>
+    <string name="p1Input">Player 1 Name Here</string>
+    <string name="BeginGameButton">Start Game</string>
 </resources>

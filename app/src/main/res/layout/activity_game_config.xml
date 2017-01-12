@@ -10,4 +10,115 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.evgames.elijahvarga.dots2boxes.GameConfig">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/p2Input"
+        android:hint="@string/p2Input"
+        android:layout_below="@+id/name2Prompt"
+        android:layout_alignLeft="@+id/name2Prompt"
+        android:layout_alignStart="@+id/name2Prompt" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/p1Input"
+        android:hint="@string/p1Input"
+        android:layout_below="@+id/name1Prompt"
+        android:layout_alignLeft="@+id/name1Prompt"
+        android:layout_alignStart="@+id/name1Prompt" />
+
+    <TextView
+        android:text="@string/p2NamePrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name2Prompt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_below="@+id/p1Input"
+        android:layout_alignLeft="@+id/p1Input"
+        android:layout_alignStart="@+id/p1Input"
+        android:layout_marginTop="52dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/p1Color"
+        android:layout_below="@+id/p1Input"
+        android:layout_alignRight="@+id/p1Input"
+        android:layout_alignEnd="@+id/p1Input"
+        android:layout_alignLeft="@+id/p1Input"
+        android:layout_alignStart="@+id/p1Input" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p2Input"
+        android:id="@+id/spinner2"
+        android:layout_alignLeft="@+id/p2Input"
+        android:layout_alignStart="@+id/p2Input"
+        android:layout_alignRight="@+id/p2Input"
+        android:layout_alignEnd="@+id/p2Input" />
+
+    <TextView
+        android:text="Select Board Size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boardSizePrompt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_below="@+id/spinner2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:text="@string/p1NamePrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/name1Prompt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/BeginGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:id="@+id/beginButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioButton
+        android:text="RadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:id="@+id/radioButton"
+        android:layout_above="@+id/beginButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioButton
+        android:text="RadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/radioButton"
+        android:layout_alignRight="@+id/beginButton"
+        android:layout_alignEnd="@+id/beginButton"
+        android:id="@+id/radioButton2" />
+
+    <RadioButton
+        android:text="RadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton3"
+        android:layout_alignBaseline="@+id/radioButton2"
+        android:layout_alignBottom="@+id/radioButton2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>
