@@ -14,4 +14,16 @@
     <string name="mediumBoard">10 X 10</string>
     <string name="largeBoard">15 X 15</string>
     <string name="selectBoardSize">Select Board Size</string>
+    <string name="colorPrompt">Select Player Color</string>
+
+    <string-array name="color_Choice">
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Purple</item>
+        <item>Pink</item>
+        <item>Cyan</item>
+    </string-array>
 </resources>
