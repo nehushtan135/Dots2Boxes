@@ -64,7 +64,7 @@
         android:layout_alignEnd="@+id/p2Input" />
 
     <TextView
-        android:text="Select Board Size"
+        android:text="@string/selectBoardSize"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/boardSizePrompt"
@@ -92,33 +92,43 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
-    <RadioButton
-        android:text="RadioButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
-        android:id="@+id/radioButton"
-        android:layout_above="@+id/beginButton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
-    <RadioButton
-        android:text="RadioButton"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/radioButton"
-        android:layout_alignRight="@+id/beginButton"
-        android:layout_alignEnd="@+id/beginButton"
-        android:id="@+id/radioButton2" />
+        android:weightSum="1"
+        android:layout_below="@id/boardSizePrompt"
+        android:layout_centerHorizontal="true">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="0dp"
 
-    <RadioButton
-        android:text="RadioButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/radioButton3"
-        android:layout_alignBaseline="@+id/radioButton2"
-        android:layout_alignBottom="@+id/radioButton2"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+            android:id="@+id/smallBoard"
+            android:text="@string/smallBoard"
+            android:layout_weight="0.33"/>
+
+        <RadioButton
+            android:text="@string/mediumBoard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mediumBoard"
+            android:elevation="0dp"
+
+            android:layout_weight="0.33"/>
+
+        <RadioButton
+            android:text="@string/largeBoard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/largeBoard"
+            android:elevation="0dp"
+            android:layout_weight="0.33"/>
+
+
+
+
+    </LinearLayout>
 
 </RelativeLayout>
