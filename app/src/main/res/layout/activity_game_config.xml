@@ -59,7 +59,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/p2Input"
-        android:id="@+id/spinner2"
+        android:id="@+id/p2Color"
         android:entries="@array/color_Choice"
         android:layout_alignLeft="@+id/p2Input"
         android:layout_alignStart="@+id/p2Input"
@@ -72,7 +72,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/boardSizePrompt"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:layout_below="@+id/spinner2"
+        android:layout_below="@+id/p2Color"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp" />
 
@@ -103,6 +103,7 @@
         android:weightSum="1"
         android:layout_below="@id/boardSizePrompt"
         android:layout_centerHorizontal="true">
+
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

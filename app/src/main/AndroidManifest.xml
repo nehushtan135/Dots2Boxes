@@ -18,7 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GameConfig"></activity>
+        <activity android:name=".GameConfig" />
+        <activity
+            android:name=".ActualGame"
+            android:label="@string/title_activity_actual_game"
+            android:parentActivityName=".GameConfig"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.evgames.elijahvarga.dots2boxes.GameConfig" />
+        </activity>
     </application>
 
 </manifest>
