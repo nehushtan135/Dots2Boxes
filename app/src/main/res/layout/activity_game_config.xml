@@ -47,8 +47,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/p1Color"
-        android:entries="@array/color_Choice"
-        android:prompt="@string/colorPrompt"
         android:layout_below="@+id/p1Input"
         android:layout_alignRight="@+id/p1Input"
         android:layout_alignEnd="@+id/p1Input"
